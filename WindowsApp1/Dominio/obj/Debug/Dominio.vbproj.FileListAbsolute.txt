@@ -26,3 +26,17 @@ D:\Trabajos\AppCliente-Productos-VB\WindowsApp1\Dominio\obj\Debug\Dominio.vbproj
 D:\Trabajos\AppCliente-Productos-VB\WindowsApp1\Dominio\obj\Debug\Dominio.dll
 D:\Trabajos\AppCliente-Productos-VB\WindowsApp1\Dominio\obj\Debug\Dominio.xml
 D:\Trabajos\AppCliente-Productos-VB\WindowsApp1\Dominio\obj\Debug\Dominio.pdb
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\bin\Debug\Dominio.dll
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\bin\Debug\Dominio.pdb
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\bin\Debug\Dominio.xml
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\bin\Debug\Persistencia.dll
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\bin\Debug\Persistencia.pdb
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\bin\Debug\Persistencia.xml
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\obj\Debug\Dominio.vbprojAssemblyReference.cache
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\obj\Debug\Dominio.Resources.resources
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\obj\Debug\Dominio.vbproj.GenerateResource.cache
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\obj\Debug\Dominio.vbproj.CoreCompileInputs.cache
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\obj\Debug\Dominio.vbproj.CopyComplete
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\obj\Debug\Dominio.dll
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\obj\Debug\Dominio.xml
+D:\Trabajos\AppVisualBasic\WindowsApp1\Dominio\obj\Debug\Dominio.pdb

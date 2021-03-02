@@ -39,16 +39,20 @@ Public Class Clientes
         'EDITAR
         If (Editar = True) Then
             Try
-                ObjectCN.EditarCliente(txtid.Text, txtclientes.Text, txttelefono.Text, txtcorreo.Text)
-                MessageBox.Show("se edito correctamente")
-                MostrarClientes()
-                limpiarForm()
-                Editar = False
-                btnCancelar.Enabled = False
-                dataGridView1.Enabled = True
-                txtBuscar.Enabled = False
-                txtBuscar.Clear()
-                label6.Visible = True
+                If (txtclientes.TextLength < 3 And txttelefono.TextLength < 5 And txtcorreo.TextLength < 5) Then
+                    MessageBox.Show("Complete los campos")
+                Else
+                    ObjectCN.EditarCliente(txtid.Text, txtclientes.Text, txttelefono.Text, txtcorreo.Text)
+                    MessageBox.Show("se edito correctamente")
+                    MostrarClientes()
+                    limpiarForm()
+                    Editar = False
+                    btnCancelar.Enabled = False
+                    dataGridView1.Enabled = True
+                    txtBuscar.Enabled = False
+                    txtBuscar.Clear()
+                    label6.Visible = True
+                End If
             Catch ex As Exception
                 MessageBox.Show("no se pudo insertar los datos por: " & vbCrLf & ex.Message)
             End Try

@@ -5,7 +5,6 @@ Public Class CNclientes
     Dim cdClientes As New CDclientes()
 
     Public Function mostrarClientes() As DataTable
-
         Return cdClientes.MostrarClientes()
     End Function
 
@@ -18,7 +17,6 @@ Public Class CNclientes
     End Sub
 
     Public Sub EliminarCliente(ID As Object)
-
         cdClientes.Eliminar(ID)
     End Sub
 
