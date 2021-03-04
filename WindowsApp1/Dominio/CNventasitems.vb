@@ -4,12 +4,21 @@ Public Class CNventasitems
 
     Dim CDventasitems As CDventasitems = New CDventasitems
 
-    Public Function mostrarDetVent(IdVenta As Object) As DataTable
+    Private idvent As String
+    Public Property IdVen() As String
+        Get
+            Return idvent
+        End Get
+        Set(ByVal value As String)
+            idvent = value
+        End Set
+    End Property
 
+    Public Function mostrarDetVent(IdVenta As Object) As DataTable
         Return CDventasitems.MostrarDetVent(IdVenta)
     End Function
 
-    Public Sub Eliminar(ID As Object)
+    Public Sub EliminarDetalleVenta(ID As Object)
         CDventasitems.EliminarDetalllesVenta(ID)
     End Sub
 

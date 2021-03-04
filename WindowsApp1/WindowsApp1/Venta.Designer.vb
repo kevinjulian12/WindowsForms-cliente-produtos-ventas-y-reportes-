@@ -53,13 +53,14 @@ Partial Class Venta
         Me.btnGuardar = New System.Windows.Forms.Button()
         Me.btnEliminar = New System.Windows.Forms.Button()
         Me.dataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.IDProducto = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Precio = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.PrecioTotal = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.LblTotal = New System.Windows.Forms.Label()
         Me.CNproductosBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.IDProducto = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Precio = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PrecioTotal = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.panel1.SuspendLayout()
         Me.groupBox3.SuspendLayout()
         Me.groupBox2.SuspendLayout()
@@ -427,7 +428,7 @@ Partial Class Venta
         DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.dataGridView1.ColumnHeadersHeight = 30
-        Me.dataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IDProducto, Me.Precio, Me.Cantidad, Me.PrecioTotal})
+        Me.dataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IDProducto, Me.Nombre, Me.Precio, Me.Cantidad, Me.PrecioTotal})
         DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(61, Byte), Integer), CType(CType(69, Byte), Integer))
         DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -452,30 +453,6 @@ Partial Class Venta
         Me.dataGridView1.Size = New System.Drawing.Size(624, 229)
         Me.dataGridView1.TabIndex = 43
         '
-        'IDProducto
-        '
-        Me.IDProducto.HeaderText = "IDProducto"
-        Me.IDProducto.Name = "IDProducto"
-        Me.IDProducto.Width = 92
-        '
-        'Precio
-        '
-        Me.Precio.HeaderText = "Precio"
-        Me.Precio.Name = "Precio"
-        Me.Precio.Width = 66
-        '
-        'Cantidad
-        '
-        Me.Cantidad.HeaderText = "Cantidad"
-        Me.Cantidad.Name = "Cantidad"
-        Me.Cantidad.Width = 80
-        '
-        'PrecioTotal
-        '
-        Me.PrecioTotal.HeaderText = "PrecioTotal"
-        Me.PrecioTotal.Name = "PrecioTotal"
-        Me.PrecioTotal.Width = 93
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -494,13 +471,43 @@ Partial Class Venta
         Me.LblTotal.ForeColor = System.Drawing.Color.Black
         Me.LblTotal.Location = New System.Drawing.Point(709, 388)
         Me.LblTotal.Name = "LblTotal"
-        Me.LblTotal.Size = New System.Drawing.Size(44, 20)
+        Me.LblTotal.Size = New System.Drawing.Size(18, 20)
         Me.LblTotal.TabIndex = 48
-        Me.LblTotal.Text = "Total"
+        Me.LblTotal.Text = "0"
         '
         'CNproductosBindingSource
         '
         Me.CNproductosBindingSource.DataSource = GetType(Dominio.CNproductos)
+        '
+        'IDProducto
+        '
+        Me.IDProducto.HeaderText = "IDProducto"
+        Me.IDProducto.Name = "IDProducto"
+        Me.IDProducto.Width = 92
+        '
+        'Nombre
+        '
+        Me.Nombre.HeaderText = "Nombre"
+        Me.Nombre.Name = "Nombre"
+        Me.Nombre.Width = 76
+        '
+        'Precio
+        '
+        Me.Precio.HeaderText = "Precio"
+        Me.Precio.Name = "Precio"
+        Me.Precio.Width = 66
+        '
+        'Cantidad
+        '
+        Me.Cantidad.HeaderText = "Cantidad"
+        Me.Cantidad.Name = "Cantidad"
+        Me.Cantidad.Width = 80
+        '
+        'PrecioTotal
+        '
+        Me.PrecioTotal.HeaderText = "PrecioTotal"
+        Me.PrecioTotal.Name = "PrecioTotal"
+        Me.PrecioTotal.Width = 93
         '
         'Venta
         '
@@ -559,6 +566,7 @@ Partial Class Venta
     Public WithEvents txtNombre As TextBox
     Private WithEvents Button1 As Button
     Friend WithEvents IDProducto As DataGridViewTextBoxColumn
+    Friend WithEvents Nombre As DataGridViewTextBoxColumn
     Friend WithEvents Precio As DataGridViewTextBoxColumn
     Friend WithEvents Cantidad As DataGridViewTextBoxColumn
     Friend WithEvents PrecioTotal As DataGridViewTextBoxColumn

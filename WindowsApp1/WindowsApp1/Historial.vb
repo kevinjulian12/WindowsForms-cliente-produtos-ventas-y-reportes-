@@ -1,21 +1,13 @@
 ﻿Imports Dominio
 Public Class Form1
     Dim ObjectCN As CNventas = New CNventas
-
-    Private idtext As String
-    Public Property IdTex() As String
-        Get
-            Return idtext
-        End Get
-        Set(ByVal value As String)
-            idtext = value
-        End Set
-    End Property
-
-
+    Dim VentaItem As CNventasitems = New CNventasitems
+    Public ID = ObjectCN.IdTex
 
     Private Sub MostrarHistorialV()
-        dataGridView1.DataSource = ObjectCN.mostrarHistVent(idtext)
+        dataGridView1.DataSource = ObjectCN.mostrarHistVent(ID)
+        dataGridView1.Columns.Item(0).Visible = False
+        dataGridView1.Columns.Item(1).Visible = False
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -26,7 +18,7 @@ Public Class Form1
         Try
             If (dataGridView1.SelectedRows.Count > 0) Then
                 Dim Detalles As DetallesVentas = New DetallesVentas
-                DetallesVentas.IdVen = dataGridView1.CurrentRow.Cells(0).Value.ToString()
+                DetallesVentas.ID = dataGridView1.CurrentRow.Cells(0).Value.ToString()
                 DetallesVentas.ShowDialog()
             Else
                 MessageBox.Show("Por favor seleccione una fila...")
@@ -40,6 +32,7 @@ Public Class Form1
         Try
             If (dataGridView1.SelectedRows.Count > 0) Then
                 Dim idVenta = dataGridView1.CurrentRow.Cells(0).Value.ToString()
+                VentaItem.EliminarDetalleVenta(idVenta)
                 ObjectCN.Eliminar(idVenta)
                 MessageBox.Show("Eliminado correctamente")
                 MostrarHistorialV()

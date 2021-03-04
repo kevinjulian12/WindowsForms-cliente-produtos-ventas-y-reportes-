@@ -2,6 +2,7 @@
 
 Public Class Venta
     Private Sub Ventas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        dataGridView1.Columns.Item(0).Visible = False
     End Sub
 
     Dim obj As CNproductos = New CNproductos
@@ -20,7 +21,7 @@ Public Class Venta
         If (txtCantidad.Text = "") Then
             MessageBox.Show("Complete todos los textos, por favor")
         Else
-            dataGridView1.Rows.Add(New String() {txtidproductos.Text, txtPrecio.Text, txtCantidad.Text, txtPrecio.Text * txtCantidad.Text})
+            dataGridView1.Rows.Add(New String() {txtidproductos.Text, txtNombre.Text, txtPrecio.Text, txtCantidad.Text, txtPrecio.Text * txtCantidad.Text})
             LblTotal.Text = Sumar("PrecioTotal", dataGridView1)
         End If
     End Sub
@@ -53,21 +54,22 @@ Public Class Venta
     Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
         If txtidcliente.Text = "" Then
             MessageBox.Show("seleccionar un cliente")
+        Else
+            Dim ventas As CNventas = New CNventas
+            Dim ventasItem As CNventasitems = New CNventasitems
+            Dim hora As DateTime = DateTime.Today
+            Dim total As Single = LblTotal.Text
+            Dim idVenta = ventas.InsertarVenta(txtidcliente.Text, hora, total)
+            For Each row As DataGridViewRow In dataGridView1.Rows
+                If (row.Cells(0).Value <> Nothing) Then
+                    ventasItem.InsertarItems(idVenta,
+                                         row.Cells(0).Value,
+                                         row.Cells(2).Value,
+                                         row.Cells(3).Value,
+                                         row.Cells(4).Value)
+                End If
+            Next
+            MessageBox.Show("se inserto correctamente")
         End If
-        Dim ventas As CNventas = New CNventas
-        Dim ventasItem As CNventasitems = New CNventasitems
-        Dim hora As DateTime = DateTime.Today
-        Dim total As Single = LblTotal.Text
-        Dim idVenta = ventas.InsertarVenta(txtidcliente.Text, hora, total)
-        For Each row As DataGridViewRow In dataGridView1.Rows
-            If (row.Cells(0).Value <> Nothing) Then
-                ventasItem.InsertarItems(idVenta,
-                                     row.Cells(0).Value,
-                                     row.Cells(1).Value,
-                                     row.Cells(2).Value,
-                                     row.Cells(3).Value)
-            End If
-        Next
-        MessageBox.Show("se inserto correctamente")
     End Sub
 End Class

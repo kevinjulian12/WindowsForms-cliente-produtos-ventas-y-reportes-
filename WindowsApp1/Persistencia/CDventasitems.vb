@@ -8,7 +8,7 @@ Public Class CDventasitems
             connection.Open()
             Using command = New SqlCommand()
                 command.Connection = connection
-                command.CommandText = "select* from ventasitems join productos on IDProducto=productos.ID where IDVenta= " + IdVenta
+                command.CommandText = "select Nombre,Categoria,Precio,Cantidad,PrecioTotal from ventasitems join productos on IDProducto=productos.ID where IDVenta= " + IdVenta
                 command.CommandType = CommandType.Text
                 Tabla.Load(command.ExecuteReader)
                 connection.Close()

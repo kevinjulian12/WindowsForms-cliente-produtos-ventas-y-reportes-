@@ -224,6 +224,10 @@
       <Project>{526b403f-b77a-456b-a084-d3f7ff83bb59}</Project>
       <Name>Dominio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Persistencia\DataAccess.vbproj">
+      <Project>{119241ba-ec9b-441d-9eaf-bf50d66047fe}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />

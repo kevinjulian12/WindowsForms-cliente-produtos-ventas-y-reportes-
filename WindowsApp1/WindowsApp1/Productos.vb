@@ -10,6 +10,7 @@ Public Class Productos
 
     Private Sub MostrarProductos()
         dataGridView1.DataSource = ObjectCN.mostrarProductos()
+        dataGridView1.Columns.Item(0).Visible = False
     End Sub
 
     Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click

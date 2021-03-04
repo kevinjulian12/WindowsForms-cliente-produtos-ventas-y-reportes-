@@ -4,7 +4,6 @@ Imports System.Text.RegularExpressions
 Public Class Clientes
 
     Private Sub Clientes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
         MostrarClientes()
 
     End Sub
@@ -15,7 +14,7 @@ Public Class Clientes
 
     Private Sub MostrarClientes()
         dataGridView1.DataSource = ObjectCN.mostrarClientes()
-
+        dataGridView1.Columns.Item(0).Visible = False
     End Sub
 
     Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
@@ -111,7 +110,7 @@ Public Class Clientes
         Try
             If (dataGridView1.SelectedRows.Count > 0) Then
                 Dim historialF As Form1 = New Form1
-                historialF.IdTex = dataGridView1.CurrentRow.Cells(0).Value.ToString()
+                historialF.ID = dataGridView1.CurrentRow.Cells(0).Value.ToString()
                 historialF.ShowDialog()
             Else
                 MessageBox.Show("Por favor seleccione una fila...")
@@ -134,8 +133,6 @@ Public Class Clientes
         Button1.Enabled = False
     End Sub
 
-
-
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click
         dataGridView1.Enabled = True
         Editar = False
@@ -153,7 +150,6 @@ Public Class Clientes
         txtBuscar.Enabled = True
         label6.Visible = False
     End Sub
-
 
     Private Sub FiltrarDatosDatagridview(dataGrid As DataGridView, nombre_columna As String, txt_buscar As TextBox)
         'Al texto recibido si contiene un asterisco (*) lo reemplazo de la cadena

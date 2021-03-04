@@ -18,3 +18,13 @@ D:\Trabajos\AppCliente-Productos-VB\WindowsApp1\Persistencia\obj\Debug\Persisten
 D:\Trabajos\AppCliente-Productos-VB\Persistencia.dll
 D:\Trabajos\AppCliente-Productos-VB\Persistencia.pdb
 D:\Trabajos\AppCliente-Productos-VB\Persistencia.xml
+D:\Trabajos\AppVisualBasic\WindowsApp1\Persistencia\obj\Debug\DataAccess.vbprojAssemblyReference.cache
+D:\Trabajos\AppVisualBasic\WindowsApp1\Persistencia\obj\Debug\Persistencia.Resources.resources
+D:\Trabajos\AppVisualBasic\WindowsApp1\Persistencia\obj\Debug\DataAccess.vbproj.GenerateResource.cache
+D:\Trabajos\AppVisualBasic\WindowsApp1\Persistencia\obj\Debug\DataAccess.vbproj.CoreCompileInputs.cache
+D:\Trabajos\AppVisualBasic\WindowsApp1\Persistencia\obj\Debug\Persistencia.dll
+D:\Trabajos\AppVisualBasic\WindowsApp1\Persistencia\obj\Debug\Persistencia.xml
+D:\Trabajos\AppVisualBasic\WindowsApp1\Persistencia\obj\Debug\Persistencia.pdb
+D:\Trabajos\AppVisualBasic\Persistencia.dll
+D:\Trabajos\AppVisualBasic\Persistencia.pdb
+D:\Trabajos\AppVisualBasic\Persistencia.xml

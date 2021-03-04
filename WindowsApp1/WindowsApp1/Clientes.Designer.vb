@@ -43,16 +43,11 @@ Partial Class Clientes
         Me.label2 = New System.Windows.Forms.Label()
         Me.dataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button1 = New System.Windows.Forms.Button()
-
         Me.ClientesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-
         Me.ClientesBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-
         Me.groupBox1.SuspendLayout()
         CType(Me.dataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-
         CType(Me.ClientesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-
         CType(Me.ClientesBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -329,21 +324,6 @@ Partial Class Clientes
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button1.UseVisualStyleBackColor = False
         '
-
-        '
-        'ClientesBindingSource
-        '
-
-        '
-        'ClientesTableAdapter
-
-        '
-
-        '
-        'ClientesBindingSource1
-        '
-
-        '
         'Clientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -361,9 +341,7 @@ Partial Class Clientes
         Me.groupBox1.ResumeLayout(False)
         Me.groupBox1.PerformLayout()
         CType(Me.dataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-
         CType(Me.ClientesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-
         CType(Me.ClientesBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
