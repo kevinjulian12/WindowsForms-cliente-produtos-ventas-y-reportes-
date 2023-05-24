@@ -1,0 +1,10 @@
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\bin\Debug\Negocio.Etidades.dll
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\bin\Debug\Negocio.Etidades.pdb
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\bin\Debug\Negocio.Etidades.xml
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\obj\Debug\Negocio.Entidades.vbproj.AssemblyReference.cache
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\obj\Debug\Negocio.Etidades.Resources.resources
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\obj\Debug\Negocio.Entidades.vbproj.GenerateResource.cache
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\obj\Debug\Negocio.Entidades.vbproj.CoreCompileInputs.cache
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\obj\Debug\Negocio.Etidades.dll
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\obj\Debug\Negocio.Etidades.xml
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.Etidades\obj\Debug\Negocio.Etidades.pdb

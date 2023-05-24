@@ -1,0 +1,14 @@
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\bin\Debug\Negocio.interface.dll
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\bin\Debug\Negocio.interface.pdb
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\bin\Debug\Negocio.interface.xml
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\obj\Debug\Negocio.interface.vbproj.AssemblyReference.cache
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\obj\Debug\Negocio.interface.Resources.resources
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\obj\Debug\Negocio.interface.vbproj.GenerateResource.cache
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\obj\Debug\Negocio.interface.vbproj.CoreCompileInputs.cache
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\obj\Debug\Negocio.interface.dll
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\obj\Debug\Negocio.interface.xml
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\obj\Debug\Negocio.interface.pdb
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\bin\Debug\Negocio.Etidades.dll
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\bin\Debug\Negocio.Etidades.pdb
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\bin\Debug\Negocio.Etidades.xml
+D:\RepositorioGitHub\WindowsForms-cliente-produtos-ventas-y-reportes-\WindowsApp1\Negocio.interface\obj\Debug\Negocio.interface.vbproj.CopyComplete
